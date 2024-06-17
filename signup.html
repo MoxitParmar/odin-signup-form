@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+ <div class="bgimg">
+    <img src="odin-lined.png" alt="logo">
+    <div id="name">odin</div>
+    <div class="logo">        
+    </div>
+    <div id="credits">    
+        Photo by <a href="halie-west-25xggax4bSA-unsplash.jpg">Halie west</a> by <a href="https://unsplash.com/">unsplash</a>
+    </div>
+
+ </div>
+    <header>
+        <p id="para">
+            This is not a real online service! You know you need something <br>
+            like this in your life to help you realize your deepest dreams. <br>
+            Sign up <em>now</em> to get started.
+            <br> <br>
+            You <em>know</em> you want to.
+        </p>
+    </header>
+    <main>
+        <p>Let's do this!</p>
+        <form action="https://httpbin.org/post"  method="post">
+            <div>
+            <label for="f-name">FIRST NAME</label>
+            <input type="text" name="f-name" id="f-name">
+
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+
+            <label for="pswd">PASSWORD</label>
+            <input type="password" name="pswd" id="pswd">
+            </div>
+
+            <div>
+            
+            <label for="l-name">LAST NAME</label>
+            <input type="text" name="l-name" id="l-name">
+            
+            <label for="p-num">PHONE NUMBER</label>
+            <input type="number" name="p-num" id="p-num">
+
+            <label for="con-pswd">CONFIRM PASSWORD</label>
+            <input type="password" name="con-pswd" id="con-pswd">
+            </div>
+
+            <button id="btn">Create Account</button>
+
+            <p>Already have an account? <span style="color:#596D48;">Log in</span></p>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
