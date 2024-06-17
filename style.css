@@ -139,6 +139,10 @@ input:focus {
     border-style: none;
 }
 
+#btn:hover {
+    cursor: pointer;
+}
+
 form > p {
     position: relative;
     z-index: 2;
